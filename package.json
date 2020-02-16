@@ -2,8 +2,8 @@
     "name": "@cheprasov/react-qrcode",
     "version": "1.0.0",
     "author": "Alexander Cheprasov",
-    "description": "React components showing QR-codes",
-    "keywords": [],
+    "description": "React components for showing QR-codes",
+    "keywords": ["react", "qrcode"],
     "main": "dist/index.js",
     "license": "MIT",
     "repository": {

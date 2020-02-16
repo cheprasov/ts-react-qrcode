@@ -1,6 +1,6 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-@cheprasov/react-qrcode
+@cheprasov/react-qrcode (v1.0.0)
 =========
 
 The library is for generating QR codes. The library is React wrapper for library @cheprasov/qrcode
@@ -8,6 +8,7 @@ The library is for generating QR codes. The library is React wrapper for library
 #### Features:
 - it is easy to use and configure (error correction level, type number, padding and so on).
 - Supports inverting of data.
+- Support image/logo on QR-code.
 - The library is covered by tests.
 - The library has typescript definitions.
 
@@ -76,7 +77,8 @@ import { QRCodeImg } from '@cheprasov/react-qrcode';
 ```
 
 Props:
-- `value` (string) - new value for encoding to QR code
+- `value` (string) - new value for encoding to QR code.
+- `alt` (string, optional) - alt text for img element.
 - `level` (string, optional, default = `L`) - error correction level. Note, the level affects QR Code data size. Allowed values:
     - `L` - Allows recovery of up to 7% data loss
     - `M` - Allows recovery of up to 15% data loss
