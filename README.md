@@ -12,7 +12,7 @@ The library is for generating QR codes. The library is React wrapper for library
 - The library has typescript definitions.
 
 - QRCodeImg
-    - Render QR-code like dataUrl: <img src="data:image/png;base64,..." alt="..." />
+    - Render QR-code like dataUrl: `<img src="data:image/png;base64,..." alt="..." />`
     - Supports adding a image (logo) to QR code (allows to use url, dataUrl, Image, Canvas).
     - It is possible to specify scale or blocks size.
     - Allows to specify relative/abcolute position/size of image on QR code.
