@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "env": {
+    "browser": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "rules": {
+    "@typescript-eslint/explicit-member-accessibility": ["error", {"accessibility": "no-public"}],
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/indent": ["error", 4],
+    "react/jsx-filename-extension": ["warn", {"extensions": [".jsx", ".tsx"]}],
+    "react/prop-types": 0,
+    "react/jsx-first-prop-new-line": [1, "multiline"],
+    "react/jsx-indent": [1, 4],
+    "react/jsx-indent-props": [1, 4],
+    "react/destructuring-assignment": ["warn"],
+    "react/prefer-stateless-function": "off",
+    "react/sort-comp": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "indent": ["error", 4, {"SwitchCase": 1}],
+    "max-len": ["error", {"code": 120}],
+    "padded-blocks": ["error", { "classes": "always" }],
+    "lines-between-class-members": "off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "prefer-destructuring": "off",
+    "object-curly-newline": "off"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {"extensions": [".js", ".jsx", ".ts", ".tsx"]}
+    }
+  },
+  "parser": "@typescript-eslint/parser"
+}
