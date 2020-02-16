@@ -1,6 +1,6 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-@cheprasov/react-qrcode (v1.0.0)
+@cheprasov/react-qrcode (v1.0.1)
 =========
 
 The library is for generating QR codes. The library is React wrapper for library @cheprasov/qrcode
